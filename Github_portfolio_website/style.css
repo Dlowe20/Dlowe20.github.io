@@ -1,0 +1,15 @@
+body {
+    background-image:image(url('Portfoilo.github.io\Github_portfolio_website\Tester.png'));
+    background-size: cover;
+
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
