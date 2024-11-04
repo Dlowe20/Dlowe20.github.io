@@ -1,14 +1,33 @@
+// === index.html ===
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Digital Portfoilo</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link to the CSS file -->
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my web page styled with CSS.</p>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">Your Name</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-btn">&#9776;</div>
+        </div>
+    </nav>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>This is my Portfolio</h1>
+            <p>I'm a passionate developer, enjoy experimenting</p>
+            <a href="contact.html" class="cta-button">Get In Touch</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
